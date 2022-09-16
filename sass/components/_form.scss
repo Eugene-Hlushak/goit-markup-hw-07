@@ -138,15 +138,14 @@
 }
 
 .form__btn-submit {
+  @extend %btn;
   display: block;
   width: 200px;
   height: 50px;
-  border-radius: 4px;
+
   margin-left: auto;
   margin-right: auto;
-  border: none;
 
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
-  cursor: pointer;
 }

@@ -27,6 +27,12 @@
   margin: -1px;
 }
 
+.subscribe__btn-submit, .hero__btn-order-service, .form__btn-submit, .filters__btn {
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
 body {
   color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
@@ -167,8 +173,6 @@ p {
 }
 
 .filters__btn {
-  border: none;
-  border-radius: 4px;
   padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
@@ -176,7 +180,6 @@ p {
   transition: background-color var(--transition-time-and-function), color var(--transition-time-and-function), box-shadow var(--transition-time-and-function);
   background-color: var(--filters-btn-bgcolor);
   color: var(--title-color);
-  cursor: pointer;
 }
 .filters__btn:hover, .filters__btn:focus {
   background-color: var(--accent-color);
@@ -317,13 +320,10 @@ p {
   display: block;
   width: 200px;
   height: 50px;
-  border-radius: 4px;
   margin-left: auto;
   margin-right: auto;
-  border: none;
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
-  cursor: pointer;
 }
 
 .page-header {
@@ -448,10 +448,7 @@ p {
   letter-spacing: 0.06em;
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
-  border-radius: 4px;
-  border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  cursor: pointer;
 }
 
 .hero__btn-order-service:active {
@@ -777,8 +774,6 @@ p {
   width: 200px;
   height: 50px;
   padding: 0;
-  border-radius: 4px;
-  border: none;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -786,10 +781,8 @@ p {
   color: #ffffff;
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  cursor: pointer;
 }
-
-.subscribe__icon {
+.subscribe__btn-submit .subscribe__icon {
   margin-left: 10px;
   fill: currentColor;
 }/*# sourceMappingURL=main.css.map */
